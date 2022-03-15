@@ -67,4 +67,4 @@ Once the script's execution is completed, the finished radar clutter data set is
 
 ## Citation
 
-See [above](https://github.com/kopp-j/clutter-ds/edit/main/README.md#citation).
+See [above](https://github.com/kopp-j/clutter-ds#citation).
