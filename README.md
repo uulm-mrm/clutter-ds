@@ -28,9 +28,9 @@ TODO
 
 ***NOTE: The label generation method's code will be published as soon as the submitted paper is accepted! Until then, these instructions are only for demonstration.***
 
-1. Download the original RadarScenes data set from [https://zenodo.org/record/4559821](https://zenodo.org/record/4559821) and extract the zip file. For the remainder of these instructions, it assumed that the extracted data is stored in `~/workspace/RadarScenes_Clutter/`. However, you may replace this with a path of your choice.
+1. **Download the original RadarScenes data set** from [https://zenodo.org/record/4559821](https://zenodo.org/record/4559821) and extract the zip file. For the remainder of these instructions, it assumed that the extracted data is stored in `~/workspace/RadarScenes_Clutter/`. However, you may replace this with a path of your choice.
 
-2. Install the [RadarScenes utility Python package](https://github.com/oleschum/radar_scenes). This can be done e.g. in a newly created virtual environment as follows.\
+2. **Install the [RadarScenes utility Python package](https://github.com/oleschum/radar_scenes).** This can be done e.g. in a newly created virtual environment as follows.\
     On Linux:
     ```shell
     python3 -m venv ~/.virtualenvs/radar_scenes_venv  # create a virtual Python environment named "radar_scenes_venv"
@@ -45,7 +45,7 @@ TODO
     ```
     For a more detailed description of the installation, see [https://github.com/oleschum/radar_scenes#installation](https://github.com/oleschum/radar_scenes#installation).
 
-3. Download the script for label generation provided in this repository. There are multiple ways to do this. You can either clone the entire git repository (assuming git is installed on your system) via
+3. **Download the script for label generation provided in this repository.** There are multiple ways to do this. You can either clone the entire git repository (assuming git is installed on your system) via
     ```shell
     git clone https://github.com/kopp-j/clutter-ds.git /path/for/storing/script/  # target directory may e.g. be ~/clutter_dataset_generation/
     ```
@@ -53,12 +53,12 @@ TODO
     
     or copy the code of the two [source files](https://github.com/kopp-j/clutter-ds/tree/main/src) directly.
 
-4. Execute the label generation script
+4. **Execute the label generation script**
     ```shell
     # Navigate to the directory in which the label generation script is stored
     cd /path/for/storing/script/  # or ~/clutter_dataset_generation/ or any other path you chose in step 3
     
-    # Execute the script from within the virtual environment (if necessary, reactivate the environment as seen above)
+    # Execute the script from within the virtual environment (if necessary, reactivate the environment as seen in step 2)
     python3 ./src/generate_clutter_labels.py --dataset-path ~/workspace/RadarScenes_Clutter/
     ```
     After confirming that the original data set files may be overwritten, you will see the script processing the sequences one by one. The entire execution may take several minutes, depending on your system.
