@@ -10,12 +10,25 @@ The three classes distinguished in the new annotations are *moving object*, *sta
 
 ### Citation
 
-The label generation method was first presented in the (not yet published) paper **"Tackling Clutter in Radar Data -- Label Generation and Detection Using PointNet++"** by J. Kopp, D. Kellner, A. Piroli and K. Dietmayer. Please cite this paper when using the generated ground-truth in your own work.
-<!-- This creates a collapsed block: 
-<details><summary>BibTeX</summary>
-TODO
+The label generation method in this repository was first presented in the paper [**"Tackling Clutter in Radar Data - Label Generation and Detection Using PointNet++"** by J. Kopp, D. Kellner, A. Piroli and K. Dietmayer](http://arxiv.org/abs/2303.09530). Please make sure to cite this paper when using the code or the generated ground-truth in your own work.
+<details><summary>BibTeX Entry</summary>
+
+```
+@article{Kopp2023,
+	title = {{Tackling Clutter in Radar Data -- Label Generation and Detection Using PointNet++}},
+	author = {Kopp, Johannes and Kellner, Dominik and Piroli, Aldi and Dietmayer, Klaus},
+	archivePrefix = {arXiv},
+	arxivId = {2303.09530},
+	eprint = {2303.09530},
+	url = {http://arxiv.org/abs/2303.09530},
+	publisher = {arXiv},
+	year = {2023}
+}
+```
+
 </details>
--->
+
+In addition to that, you will probably want to cite the original [RadarScenes](https://radar-scenes.com/citation/) data set.
 
 ## Instructions
 
@@ -25,8 +38,6 @@ TODO
 * A current version of pip (upgrade via `python3 -m pip install --upgrade pip`)
 
 ### Generating the radar clutter data set
-
-***NOTE: The label generation method's code will be published as soon as the submitted paper is accepted! Until then, these instructions are only for demonstration.***
 
 1. **Download the original RadarScenes data set** from [https://zenodo.org/record/4559821](https://zenodo.org/record/4559821) and extract the zip file. For the remainder of these instructions, it assumed that the extracted data is stored in `~/workspace/RadarScenes_Clutter/`. However, you may replace this with a path of your choice.
 
