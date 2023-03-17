@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
-from enum import Enum
+from enum import Enum, unique
 
 
+@unqiue
 class ClutterLabel(Enum):
     """
     Label enum of clutter labels for radar clutter data set
@@ -11,11 +12,11 @@ class ClutterLabel(Enum):
     STATIONARY = 2
 
     @staticmethod
-    def label_id_to_name(label_id: int) -> str:
+    def class_idx_to_name(class_idx: int) -> str:
         """
-        Convert integer label ID to string representation
+        Convert integer class index to string of class name
 
-        :param label_id: Label ID of class for which string is desired
+        :param class_idx: Index of class for which string is desired
         :return: Class name as string
         """
-        return ClutterLabel(label_id).name
+        return ClutterLabel(class_idx).name
