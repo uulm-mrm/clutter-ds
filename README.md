@@ -10,19 +10,21 @@ The three classes distinguished in the new annotations are *moving object*, *sta
 
 ### Citation
 
-The label generation method in this repository was first presented in the paper [**"Tackling Clutter in Radar Data - Label Generation and Detection Using PointNet++"** by J. Kopp, D. Kellner, A. Piroli and K. Dietmayer](http://arxiv.org/abs/2303.09530). Please make sure to cite this paper when using the code or the generated ground-truth in your own work.
+The label generation method in this repository was first presented in the paper [**"Tackling Clutter in Radar Data - Label Generation and Detection Using PointNet++"** by J. Kopp, D. Kellner, A. Piroli and K. Dietmayer](https://arxiv.org/abs/2303.09530) ([arXiv](https://arxiv.org/abs/2303.09530), [IEEE](https://ieeexplore.ieee.org/document/10160222/)). Please make sure to cite this paper when using the code or the generated ground-truth in your own work.
 <details><summary>BibTeX Entry</summary>
 
 ```
-@article{Kopp2023,
+@inproceedings{Kopp2023,
 	title = {{Tackling Clutter in Radar Data -- Label Generation and Detection Using PointNet++}},
 	author = {Kopp, Johannes and Kellner, Dominik and Piroli, Aldi and Dietmayer, Klaus},
-	archivePrefix = {arXiv},
-	arxivId = {2303.09530},
-	eprint = {2303.09530},
-	url = {http://arxiv.org/abs/2303.09530},
-	publisher = {arXiv},
-	year = {2023}
+	booktitle = {2023 IEEE International Conference on Robotics and Automation (ICRA)},
+	publisher = {IEEE},
+	pages = {1493--1499},
+	year = {2023},
+	month = {may},
+	doi = {10.1109/ICRA48891.2023.10160222},
+	isbn = {979-8-3503-2365-8},
+	url = {https://ieeexplore.ieee.org/document/10160222/}
 }
 ```
 
