@@ -60,11 +60,11 @@ In addition to that, you will probably want to cite the original [RadarScenes](h
 
 3. **Download the script for label generation provided in this repository.** There are multiple ways to do this. You can either clone the entire git repository (assuming git is installed on your system) via
     ```shell
-    git clone https://github.com/kopp-j/clutter-ds.git /path/for/storing/script/  # target directory may e.g. be ~/clutter_dataset_generation/
+    git clone https://github.com/uulm-mrm/clutter-ds.git /path/for/storing/script/  # target directory may e.g. be ~/clutter_dataset_generation/
     ```
-    or download the repository as a zip file from [https://github.com/kopp-j/clutter-ds/archive/refs/heads/main.zip](https://github.com/kopp-j/clutter-ds/archive/refs/heads/main.zip) and extract it locally
+    or download the repository as a zip file from [https://github.com/uulm-mrm/clutter-ds/archive/refs/heads/main.zip](https://github.com/uulm-mrm/clutter-ds/archive/refs/heads/main.zip) and extract it locally
     
-    or copy the code of the two [source files](https://github.com/kopp-j/clutter-ds/tree/main/src) directly.
+    or copy the code of the two [source files](https://github.com/uulm-mrm/clutter-ds/tree/main/src) directly.
 
 4. **Execute the label generation script**
     ```shell
@@ -76,8 +76,8 @@ In addition to that, you will probably want to cite the original [RadarScenes](h
     ```
     After confirming that the original data set files may be overwritten, you will see the script processing the sequences one by one. The entire execution may take several minutes, depending on your system.
 
-Once the script's execution is completed, the finished radar clutter data set is available in the directory `~/workspace/RadarScenes_Clutter/`. Since the original storage format is maintained, all code intended for the RadarScenes data set will also work with the new data. Only the [label definition](https://github.com/kopp-j/clutter-ds/blob/main/src/clutter_labels.py) has to be adapted.
+Once the script's execution is completed, the finished radar clutter data set is available in the directory `~/workspace/RadarScenes_Clutter/`. Since the original storage format is maintained, all code intended for the RadarScenes data set will also work with the new data. Only the [label definition](https://github.com/uulm-mrm/clutter-ds/blob/main/src/clutter_labels.py) has to be adapted.
 
 ## Citation
 
-See [above](https://github.com/kopp-j/clutter-ds#citation).
+See [above](https://github.com/uulm-mrm/clutter-ds#citation).
